@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <h1>hello from homepage</h1>
+    <div>
+    <h3>GET METHOD</h3>
+    <form method="GET" action="/name">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+    <!--Post method is more secured, data is not past into url-->
+    <div>
+        <h3>POST METHOD</h3>
+        <form method="POST" action="/name">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
